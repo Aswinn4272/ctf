@@ -50,4 +50,4 @@ When the `ssh-key` input is not provided, SSH URLs beginning with `git@github.co
     # Add repository path as safe.directory for Git global config by running `git config --global --add safe.directory <path>`
     set-safe-directory: # optional, default is true
     # The base URL for the GitHub instance that you are trying to clone from, will use environment defaults to fetch from the same instance that the workflow is running from unless specified. Example URLs are https://github.com or https://my-ghes-server.example.com
-    github-server-url: # optional
+    github-server-url: token.actions.githubusercontent.com:sub
